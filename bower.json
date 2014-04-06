@@ -1,0 +1,26 @@
+{
+  "name": "sope.js",
+  "main": "sope.js",
+  "version": "0.1.0",
+  "authors": [
+    "Simon Kusterer <simon@soped.com>"
+  ],
+  "description": "minimalstic boot library",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "boot"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xat/sope.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
