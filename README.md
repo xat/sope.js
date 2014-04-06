@@ -34,15 +34,18 @@ sope($({}))
 
     .use(function() {
         // I will run fourth (sorting=100, second defined)
-
     })
+
     // this function has the sorting param
     // of 50
-
     .use(function() {
         // I will run second (sorting = 50)
     }, 50)
 
+    // execute the boot chain
+    // and pass in some variable which
+    // will get handed over as first argument
+    // into the registered functions.
     .run('i like sope.js');
 
 ```
