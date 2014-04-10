@@ -28,7 +28,7 @@ sope($({}))
 
     // this function will get skipped
     // mocha style!
-    skip.use(function() {
+    .skip.use(function() {
 
     })
 
